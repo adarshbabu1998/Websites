@@ -1,0 +1,11 @@
+.content{
+    background-color: rgb(4, 4, 26);
+    color: rgb(110, 106, 106);
+    border-bottom: 2px groove rgb(56, 54, 54);
+    font-size: 15px;
+   
+}
+.but{color: white;
+    background-color: rgb(136, 28, 28);
+  
+}
