@@ -3,9 +3,67 @@
     color: rgb(110, 106, 106);
     border-bottom: 2px groove rgb(56, 54, 54);
     font-size: 15px;
+    padding-top: -800px;
+    padding-bottom: 80px;
    
 }
-.but{color: white;
-    background-color: rgb(136, 28, 28);
+
+      
+.btn-loading {
+        background: #B00;
+        width: 12rem;
+        height: 48px;
+        
+        border: 0;
+        font-weight: bold;
+        border-radius: 20px;
+        color: #fff;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+      }
+      .btn-loading.animation:before {
+        content: '';
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        border-top-color: transparent;
+        animation: spin 1s ease-in-out infinite;
+        
+      }
+      .btn-loading.animation span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        opacity: 50%;
+        transition: top .5s ease-out;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg)
+        }
+      }
+   
   
+
+.nav .nav-link:hover {
+    color: rgb(20, 185, 197);
+    font-size: 20px;
+    background-color: rgb(46, 1, 35);
+    border-radius: 40px;
+    box-shadow: 3px 5px 10px;
+
+
 }
+.nav .nav-link{
+    color: rgb(148, 24, 45);
+    background-color: rgb(187, 235, 219);
+    border-radius: 40px;
+}
+
+
+
+
